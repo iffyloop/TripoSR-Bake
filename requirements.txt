@@ -1,0 +1,9 @@
+omegaconf==2.3.0
+Pillow==10.1.0
+einops==0.7.0
+transformers==4.35.0
+rembg==2.0.56
+huggingface-hub==0.16.4
+trimesh==4.2.0
+xatlas==0.0.9
+moderngl==5.10.0
