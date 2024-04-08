@@ -88,6 +88,7 @@ def run_mesh(args, tsr_result, grid_result):
     total_grid_resolution = args.marching_resolution * args.marching_oversampling
     max_pooled = skimage.measure.block_reduce(
         grid_result["density_act"]
+        .cpu()
         .numpy()
         .reshape(
             total_grid_resolution,
