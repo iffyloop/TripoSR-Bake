@@ -1,4 +1,4 @@
-**UPDATE: This repository is deprecated. Please use [Meshfinity](https://github.com/meshfinity/meshfinity) or the official [TripoSR]([https://github.com/](https://github.com/VAST-AI-Research/TripoSR) repo if you simply need to generate textured meshes. The content of this repo will remain online in case you specifically need to modify the generated mesh geometry before baking the texture - but many users will not need this functionality.**
+**UPDATE: This repository is deprecated. Please use [Meshfinity](https://github.com/meshfinity/meshfinity) or the official [TripoSR](https://github.com/VAST-AI-Research/TripoSR) repo if you simply need to generate textured meshes. The content of this repo will remain online in case you specifically need to modify the generated mesh geometry before baking the texture - but many users will not need this functionality.**
 
 # TripoSR Bake
 
