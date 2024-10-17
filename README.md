@@ -1,3 +1,5 @@
+**UPDATE: This repository is deprecated. Please use [Meshfinity](https://github.com/meshfinity/meshfinity) or the official [TripoSR]([https://github.com/](https://github.com/VAST-AI-Research/TripoSR) repo if you simply need to generate textured meshes. The content of this repo will remain online in case you specifically need to modify the generated mesh geometry before baking the texture - but many users will not need this functionality.**
+
 # TripoSR Bake
 
 [TripoSR](https://github.com/VAST-AI-Research/TripoSR) is an excellent open-source model for inferring 3D shape and texture data from 2D meshes. Like many recent machine learning-based models for generative 3D graphics, TripoSR uses a NeRF (neural radiance field) volumetric representation for its 3D data, as opposed to a traditional polygon mesh. The TripoSR repository includes code for converting its generated NeRF to a mesh using the Marching Cubes algorithm, but stores color data in vertex colors instead of textures, severely limiting resolution and preventing further manipulation of geometry (e.g. mesh simplification) without destroying color data.
